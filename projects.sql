@@ -1,4 +1,29 @@
 CREATE TABLE projects;
 INSERT INTO projects (PROJECT_ID, PROJECT_NAME, BUILD_DATE, LANGUAGES, COMPLETED);
 ALTER TABLE projects RENAME COLUMN BUILD_DATE TO YEAR_CREATED; 
-
+INSERT INTO projects VALUES (1, PORTFOLIO_WEBSITE, 2023, HTML CSS JAVASCRIPT, Y), 
+                            (2, COFFEE_SHOP_WEBSITE, 2022, HTML CSS BOOTSTRAP PHP MYSQL, Y), 
+                            (3, INVENTORY_PROJECT, 2023, JAVA, Y), 
+                            (4, MCDONALDS_CLONE, 2023, HTML CSS, Y), 
+                            (5, JAGUAR_CLONE, 2024, HTML CSS JAVASCRIPT, N),
+                            (6, STARBUCKS_CLONE, 2022, HTML CSS, Y),
+                            (7, ORDER_CHATBOT, 2022, PYTHON, Y),
+                            (8, WEATHER_APP_2, 2024, HTML CSS JAVASCRIPT, N),
+                            (9, WEATHER_APP, 2024, REACT JAVASCRIPT CSS, Y),
+                            (10, STARBUCKS_CLONE_2, 2024, HTML TAILWIND CSS, Y),
+                            (11, PLAN, 2024, TAILWIND CSS JAVASCRIPT HTML, Y),
+                            (12, CHANEL_CLONE, 2023, HTML CSS, Y),
+                            (13, PROJECT_DATABASE, 2024, SQL, Y), 
+                            (14, MORTGAGE_CALCULATOR, 2023, JAVA, Y),
+                            (15, MOVIE_GUIDE, PYTHON, 2022, PYTHON, Y),
+                            (16, ITERATION_RECURSION, 2022, PYTHON, Y),
+                            (17, INVOICE_ITEM, 2022, PYTHON, Y),
+                            (18, COUNTRY, 2022, PYTHON, Y),
+                            (19, TEMPERATURE_CONVERSION, 2022, PYTHON, Y),
+                            (20, GUESSING_GAME, 2022, PYTHON, Y),
+                            (21, STRINGS_DATES, 2022, PYTHON, Y),
+                            (22, MAD_LIBS, 2022, PYTHON, Y),
+                            (23, TACO_BELL, 2023, HTML CSS, Y),
+                            (24, REAL_HTML, 2022, HTML CSS, Y),
+                            (25, REAL_ESTATE_2, REACT JAVASCRIPT CSS, N),
+                            (26, STOCK, REACT JAVASCRIPT, N); 
